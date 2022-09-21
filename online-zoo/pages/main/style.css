@@ -1,0 +1,163 @@
+body {
+	padding: 0;
+	font-family: "Roboto", "Arial", sans-serif;
+	background-color: black;
+}
+
+header,
+section,
+footer {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+/*
+@font-face {
+	font-family: Roboto;
+	src: url("../../assets/fonts/Roboto/");
+}
+*/
+main {
+	display: block;
+}
+
+button {
+	width: 298px;
+	height: 54px;
+	color: white;
+	background-color: orange;
+}
+
+.buttoncer {
+	border-radius: 25px;
+}
+
+
+/*header*/
+header {
+	background-color: black;
+	z-index: 3;
+	position: relative;
+}
+
+.nav {
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+
+}
+
+.nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	margin: 29px;
+	align-self: center;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	margin: 29px;
+}
+
+/*section one*/
+
+
+/*section one*/
+.main-one {
+	height: 780px;
+	background-color: azure;
+	background: no-repeat url("../../assets/images/GPanda.png");
+	margin-top: -80px;
+}
+
+.main-one img {
+	height: 465px;
+}
+
+.main-one div {
+	position: absolute;
+	width: 465px;
+	height: 465px;
+	left: calc(50% - 465px/2 + 239.5px);
+	top: 102px;
+	border-radius: 50%;
+	background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.main-one h1 {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	left: calc(50% - 500.31px/2 + 330.15px);
+	top: 166px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 106.496px;
+	line-height: 75%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.main-one span {
+	color: #FFEE2E;
+}
+
+.main-one button {
+	position: absolute;
+	left: calc(50% - 298px/2 + 332px);
+	top: 640px;
+}
+
+/*second main*/
+.main-second {
+	height: 630px;
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-second-inside {
+
+	margin-left: 214px;
+	display: flex;
+	flex-direction: row;
+	padding-top: 140px;
+	color: #333B41;
+}
+
+.text-secod-main {
+	width: 465px;
+}
+
+.main-second-inside img {
+	margin-right: 87px;
+	height: 403px;
+}
+
+.flowers-second-main {
+	margin-right: 0;
+}
+
+.main-second-inside h2 {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 120%;
+	margin: 0;
+}
+
+.second-pargraph {
+	font-size: 24px;
+	margin-top: 54px;
+	margin-bottom: 34px;
+}
