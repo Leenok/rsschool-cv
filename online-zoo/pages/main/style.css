@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*плавная прокрутка*/
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -43,6 +48,7 @@ button:hover {
 }
 
 
+
 /*header*/
 header {
 	background-color: black;
@@ -74,6 +80,24 @@ header {
 	text-align: center;
 	font-size: 16px;
 	margin: 29px;
+}
+
+.nav a:hover {
+	color: orange;
+}
+
+/*about check*/
+.ch a {
+	color: orange;
+}
+
+.ch a:hover {
+	color: rgba(255, 166, 0, 0.434);
+}
+
+/*logo hover*/
+.logo img:hover {
+	background: orange;
 }
 
 /*section one*/
@@ -195,6 +219,15 @@ header {
 .item-gallery {
 	width: 366px;
 	height: 426px;
+}
+
+.item-gallery img:hover {
+	filter: brightness(50%);
+	width: 376px;
+}
+
+.item-gallery:hover {
+	font-weight: 800;
 }
 
 .btn-circle {
@@ -421,8 +454,6 @@ header {
 	height: 37px;
 	margin-right: 10px;
 }
-
-.nik-name {}
 
 .nik-name p {
 	margin: 0;
