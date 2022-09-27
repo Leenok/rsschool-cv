@@ -36,9 +36,11 @@ button {
 	border: none;
 	text-transform: uppercase;
 }
-button a{
-	text-decoration:none;
+
+button a {
+	text-decoration: none;
 }
+
 button:hover {
 	background: white;
 	color: orange;
@@ -345,6 +347,17 @@ header {
 	line-height: 130%;
 	margin-top: 10px;
 	margin-bottom: 24px;
+}
+
+.main-fourth-inside p:nth-child(4) a {
+	text-decoration-color: orange;
+	color: #111115;
+}
+
+.main-fourth-inside p:nth-child(4) a:hover {
+	font-style: 20px;
+	color: #111115;
+	text-decoration-style: double;
 }
 
 .main-fourth-inside h3 {
