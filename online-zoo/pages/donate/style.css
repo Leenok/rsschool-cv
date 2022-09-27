@@ -25,7 +25,7 @@ footer {
 }
 
 main {
-	display: block;
+	display: white;
 }
 
 button {
@@ -41,6 +41,15 @@ button:hover {
 	background: white;
 	color: orange;
 	border: 1px orange solid;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+button a:hover {
+	color: orange;
 }
 
 .buttoncer {
@@ -80,6 +89,7 @@ header {
 	text-align: center;
 	font-size: 16px;
 	margin: 29px;
+	white-space: nowrap;
 }
 
 .nav a:hover {
@@ -122,13 +132,129 @@ header {
 	margin: 0 auto;
 }
 
+
+.two-info {
+	color: white;
+	font-family: 'Roboto';
+	font-style: normal;
+
+}
+
+.two-info h3 {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 130%;
+	padding-top: 40px;
+}
+
+.two-info p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.two-h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 130%;
+	color: #FE9013;
+}
+
+
 .panda-donat {
 	background: rgba(255, 255, 255, 0.52);
 	backdrop-filter: blur(2px);
 	border-radius: 20px;
 	padding: 40px 92px 62px;
 	height: 964px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
 }
+
+.panda-donat h2 {
+	font-size: 48px;
+	line-height: 120%;
+	text-align: center;
+	color: #FE9013;
+}
+
+.panda-donat p {
+	font-size: 24px;
+
+	color: #333B41;
+}
+
+.img-panda {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	text-align: center;
+}
+
+.x {
+	margin-right: 64px;
+	margin-left: 11px;
+}
+
+.nam {
+	padding-top: 40px;
+}
+
+.nam p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #333B41;
+}
+
+.nomber {
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 80%;
+	text-transform: uppercase;
+}
+
+/*scadule*/
+.fon-scadule {
+	background: #404950;
+	border-radius: 2px;
+}
+
+.scadule,
+.sums {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.scadule {
+	height: 40px;
+	padding: 7px 30px;
+}
+
+.sums {
+	margin-top: 10px;
+}
+
+.point {
+	height: 10px;
+	width: 10px;
+	background-color: #FFEE2E;
+	border-radius: 50%;
+}
+
+
+
+
+
 
 
 
@@ -240,6 +366,7 @@ footer {
 .main-nav a {
 	text-decoration: none;
 	color: #fff;
+	white-space: nowrap;
 }
 
 .main-nav a:hover {

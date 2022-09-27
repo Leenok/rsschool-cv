@@ -39,6 +39,7 @@ button {
 
 button a {
 	text-decoration: none;
+	color: white;
 }
 
 button:hover {
@@ -84,6 +85,7 @@ header {
 	text-align: center;
 	font-size: 16px;
 	margin: 29px;
+	white-space: nowrap;
 }
 
 .nav a:hover {
@@ -225,7 +227,7 @@ header {
 	height: 426px;
 }
 
-.item-gallery img:hover {
+.img-g:hover {
 	filter: brightness(50%);
 	width: 376px;
 }
@@ -538,12 +540,6 @@ footer {
 	margin-bottom: 48px;
 }
 
-.main-nav {
-	display: flex;
-	justify-content: end;
-	flex-direction: column;
-	padding-left: 30px;
-}
 
 .block-third {
 	display: flex;
@@ -598,7 +594,18 @@ footer {
 
 
 
+
+
+
+
 /*nav footer*/
+.main-nav {
+	display: flex;
+	justify-content: end;
+	flex-direction: column;
+	padding-left: 30px;
+}
+
 .main-nav ul {
 	display: flex;
 	list-style: none;
@@ -613,6 +620,7 @@ footer {
 .main-nav a {
 	text-decoration: none;
 	color: #fff;
+	white-space: nowrap;
 }
 
 .main-nav a:hover {
