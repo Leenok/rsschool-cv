@@ -213,14 +213,18 @@ header {
 }
 
 .main-third-f {
-	display: grid;
-	grid-template-columns: 220px 1fr 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: 30px;
+
 
 }
 
 .gallery {
 	width: 1158px;
 	height: 872px;
+	padding: 0 20px;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -250,6 +254,7 @@ header {
 	border: none;
 }
 
+/*
 .left {
 	margin-left: 138px;
 	margin-top: 400px;
@@ -258,7 +263,7 @@ header {
 .right {
 	margin-top: 400px;
 }
-
+*/
 .mini-item {
 	display: grid;
 	grid-template-columns: 6fr 1fr;
