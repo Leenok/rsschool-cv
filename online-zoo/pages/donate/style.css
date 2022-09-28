@@ -5,27 +5,24 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
+* {
 	margin: 0;
 	padding: 0;
+}
+
+body {
 	font-family: "Roboto", "Arial", sans-serif;
-	background-color: black;
 }
 
 header,
 section,
 footer {
-	max-width: 1600px;
-	margin: 0 auto;
+	width: 100%;
 }
 
 
 @font-face {
 	font-family: Roboto;
-}
-
-main {
-	display: white;
 }
 
 button {
@@ -53,7 +50,7 @@ button a:hover {
 }
 
 .buttoncer {
-	border-radius: 5px;
+	border-radius: 15px;
 }
 
 
@@ -117,7 +114,9 @@ header {
 .one {
 	height: 390px;
 	background: no-repeat url("../../assets/images/panda_bg.png");
-
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
 }
 
 /*two*/
@@ -130,6 +129,7 @@ header {
 .two-first {
 	width: 1160px;
 	margin: 0 auto;
+	padding-bottom: 180px;
 }
 
 
@@ -147,10 +147,12 @@ header {
 	padding-top: 40px;
 }
 
-.two-info p {
+.two-info div {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 140%;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
 
 .two-h3 {
@@ -160,6 +162,7 @@ header {
 	font-size: 36px;
 	line-height: 130%;
 	color: #FE9013;
+	margin-bottom: 60px;
 }
 
 
@@ -168,7 +171,6 @@ header {
 	backdrop-filter: blur(2px);
 	border-radius: 20px;
 	padding: 40px 92px 62px;
-	height: 964px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -180,6 +182,8 @@ header {
 	line-height: 120%;
 	text-align: center;
 	color: #FE9013;
+	font-weight: 400;
+
 }
 
 .panda-donat p {
@@ -225,6 +229,8 @@ header {
 .fon-scadule {
 	background: #404950;
 	border-radius: 2px;
+	position: relative;
+	height: 27px;
 }
 
 .scadule,
@@ -236,12 +242,12 @@ header {
 }
 
 .scadule {
-	height: 40px;
-	padding: 7px 30px;
+	height: 27px;
+	padding: 0 30px;
 }
 
 .sums {
-	margin-top: 10px;
+	margin: 10px 30px;
 }
 
 .point {
@@ -253,8 +259,60 @@ header {
 
 
 
+.line {
+	background: #72828E;
+	position: absolute;
+	top: 13px;
+	left: 31px;
+	height: 2px;
+	width: 915px;
+	z-index: 15;
 
+}
 
+.text-last {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	color: #333B41;
+	text-align: center;
+}
+
+/*form*/
+.foorm {
+	width: 300px;
+	margin: 40px auto;
+	position: relative;
+}
+
+.dollar {
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+
+.inv {
+	width: 268px;
+	height: 54px;
+	background-color: #3672a000;
+
+}
+
+.radio {
+	padding: 25px 5px 30px;
+}
+
+.radio label {
+	padding: 5px;
+	margin: 5px;
+}
+
+.radio input[type='radio'] {
+	outline-color: #FE9013;
+	border: #4B9200 2px solid;
+}
 
 
 
