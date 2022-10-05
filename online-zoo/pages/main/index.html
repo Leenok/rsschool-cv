@@ -7,43 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>online-zoo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class="nav">
-                <li class="logo"><a href="#"><img src="../../assets/icons/logo_main.svg"></a></li>
-                <li class="ch"><a href="#">About</a></li>
-                <li><a href="#">Map</a></li>
-                <li><a href="#">Zoos</a></li>
-                <li><a href="../donate/">Donate</a></li>
-                <li><a href="#contact">Contact us</a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a></li>
-            </ul>
-        </nav>
+        <div class="header_block block">
+            <div class="logo">
+                <a href="#"><img src="../../assets/icons/logo_main.svg"></a>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li><a class="ch href  text-normal" href="#">About</a></li>
+                    <li><a class="href  text-normal" href="#">Map</a></li>
+                    <li><a class="href  text-normal" href="#">Zoos</a></li>
+                    <li><a class="href  text-normal" href="../donate/">Donate</a></li>
+                    <li><a class="href  text-normal" href="#contact">Contact us</a></li>
+                    <li><a class="href  text-normal"
+                            href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
     </header>
 
     <section class="main-one">
-        <div></div>
-        <h1>Watch your <span>favorite</span> animal online</h1>
-        <button class="buttoncer">WATCH ONLINE</button>
+        <div class="circal"><img src="../../assets/icons/circal_orange.svg" alt="orange_circal"></div>
+        <div class="block_main">
+            <div class="block_main_inside">
+                <div class="block__h1">
+                    <h1 class="h1">Watch your <span>favorite</span> animal online</h1>
+                </div>
+                <button class="button ">WATCH ONLINE</button>
+            </div>
+
+        </div>
+
     </section>
 
     <section class="main-second">
         <div class="main-second-inside">
             <img src="../../assets/images/bamboo-cap.png" alt="man">
             <div class="text-secod-main">
-                <h2>The Backstage of the Wilderness World.</h2>
-                <p>The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
-                <p class="second-pargraph">How it works </p>
-                <p>The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We
+                <h2 class="h2">The Backstage of the Wilderness World.</h2>
+                <div class="text-small">The site was founded on the basis of a volunteer movement to protect and care
+                    for
+                    animals.
+                </div>
+                <div class="text-large">How it works </div>
+                <div class="text-small">The main goal is to help the animals, as well as the nature reserves and zoos
+                    where they are
+                    kept. We
                     are currently working on video projects targeting pandas in China, eagles on an island near Los
                     Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500
-                    mammals and reptiles.</p>
+                    mammals and reptiles.</div>
             </div>
         </div>
         <img class="flowers-second-main" src="../../assets/images/flower_foto1.png" alt="flowers">
@@ -117,44 +137,57 @@
         </div>
 
         <img class="flow-third-one" src="../../assets/images/palm_foto.png" alt="flow3">
-        <button class="buttoncer btn-third">choose your favorite</button>
+        <button class="button btn-third">choose your favorite</button>
         <img class="flow-third-two" src="../../assets/images/strelitzia.png" alt="flow3">
     </section>
 
     <section class="main-fourth">
         <div class="main-fourth-inside" id="donat">
-            <h2>Pick and feed a friend</h2>
-            <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
-            <p>During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people
-                around the world find joy in PetStory.</p>
-            <p>Even though the zoo has reopened, we need you now more than ever to help us deal with these problems.
-                Please consider a gift to our <a href="../donate/">Emergency Support Fund </a>. </p>
-            <h3>How it works</h3>
-            <div class="block-howwokk">
-                <div>
-                    <div class="box-mini">
-                        <img src="../../assets/icons/pay.svg" alt="step1">
+            <div>
+                <div class="main-forth__text-block">
+                    <h2 class="h2">Pick and feed a friend</h2>
+                    <div class="text-large">We know the animals bring you joy, and in these extraordinary times, we’re
+                        glad.
                     </div>
-                    <p>Pay with card</p>
+                    <div class="">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and
+                        glad that
+                        people
+                        around the world find joy in PetStory.</div>
+                    <div class="text-normal">Even though the zoo has reopened, we need you now more than ever to help us
+                        deal with
+                        these problems.
+                        Please consider a gift to our <a href="../donate/">Emergency Support Fund </a>. </div>
                 </div>
-                <img src="../../assets/icons/Vector.png" alt="str-rg">
-                <div>
-                    <div class="box-mini">
-                        <img src="../../assets/icons/zoo.svg" alt="step1">
+                <h3 class="h3">How it works</h3>
+                <div class="block-howwokk">
+                    <div>
+                        <div class="box-mini">
+                            <img src="../../assets/icons/pay.svg" alt="step1">
+                        </div>
+                        <p>Pay with card</p>
                     </div>
-                    <p>Payment goes to the zoo</p>
-                </div>
-                <img src="../../assets/icons/Vector.png" alt="str-rg">
-                <div>
-                    <div class="box-mini">
-                        <img src="../../assets/icons/monkey.svg" alt="step1">
+                    <img src="../../assets/icons/Vector.png" alt="str-rg">
+                    <div>
+                        <div class="box-mini">
+                            <img src="../../assets/icons/zoo.svg" alt="step1">
+                        </div>
+                        <p>Payment goes to the zoo</p>
                     </div>
-                    <p>Your favourite animal gets delicious dish</p>
+                    <img src="../../assets/icons/Vector.png" alt="str-rg">
+                    <div>
+                        <div class="box-mini">
+                            <img src="../../assets/icons/monkey.svg" alt="step1">
+                        </div>
+                        <p>Your favourite animal gets delicious dish</p>
+                    </div>
+
                 </div>
+                <button class="button "><a href="../donate/">Feed
+                        a friend now</a></button>
 
             </div>
-            <button class="buttoncer btnf"><a href="../donate/">Feed
-                    a friend now</a></button>
+
+
 
         </div>
 
